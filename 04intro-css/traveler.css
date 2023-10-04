@@ -1,0 +1,128 @@
+body {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    margin: 0;
+}
+
+/* header */
+header {
+    font-family: 'MedievalSharp', cursive;
+    font-size: 20px;
+    background-color: #f3f3f3;
+    padding: 1rem 2vw;
+}
+header h1 {
+    margin: 0;
+    color: #242124;
+}
+header p {
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    color: #242124;
+    letter-spacing: .5px;
+}
+
+/* nav */
+nav {
+    background-color: #e4916b;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0 2vw;
+    margin: 0;
+    display: flex;
+}
+nav a {
+    font-size: 1.1rem;
+    text-decoration: none;
+    color: #242124;
+    font-weight: 700;
+    display: block;
+    padding: .84rem 2rem;
+}
+nav li.active a {
+    background-color: #242124;
+    color: #e4916b;
+    border-radius: .5rem;
+}
+nav a:hover {
+    color: #fff;
+}
+
+/* main */
+main {
+    padding: 1rem 2vw;
+}
+main h1 {
+    font-family: 'Lora', serif;
+    color: #242124;
+}
+main h2 {
+    font-family: 'Lora', serif;
+    color: #242124;
+    margin-bottom: .2rem;
+}
+main h3 {
+    font-family: 'Lora', serif;
+    color: #242124;
+    margin-bottom: .2rem;
+    font-weight: 300;
+}
+main p {
+    color: #2f3133;
+    margin: 0 0 .3rem 0;
+}
+main dl dt {
+    color: #242124;
+    font-weight: 700;
+}
+main dl dd {
+    color: #000000;
+    font-size: 1rem;
+}
+main ul {
+    list-style-type: square;
+}
+main ul li {
+    line-height: 125%;
+    margin-bottom: .5rem;
+    font-size: .9rem;
+}
+main address {
+    font-style: normal;
+    background-color: #e4916b;
+    padding: .5rem;
+    width: 12.5rem;
+    border: 1px solid #242124;
+    border-radius: .5rem;
+}
+main dl {
+    font-size: 1.3rem;
+    font-style: normal;
+    background-color: #e4916b;
+    padding: .5rem;
+    border: 1px solid #242124;
+    border-radius: .5rem;
+}
+main a {
+    color: #242124;
+}
+main a:hover {
+    color: rgb(239,0,24);
+}
+
+/* footer */
+footer {
+    background-color: #f3f3f3;
+    text-align: center;
+    color: #27417a;
+    padding: 1rem 0;
+    font-size: .8rem;
+}
+footer a {
+    color: #27417a;
+}
+footer a:hover {
+    color: rgb(239,0,24);
+}
