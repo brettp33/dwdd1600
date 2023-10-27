@@ -34,12 +34,13 @@ nav ul {
     display: flex;
 }
 nav a {
-    font-size: 1.1rem;
-    text-decoration: none;
-    color: #242124;
-    font-weight: 700;
     display: block;
-    padding: .84rem 2rem;
+    padding: .95rem 1rem .83rem 1rem;
+    font-size: 1.03rem;
+    text-decoration: none;
+    color: black;
+    font-weight: 800;
+    text-align: center;
 }
 nav li.active a {
     background-color: #242124;
