@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="UTF-8">
+        <title>Dirk & Dagger: Home</title>
+        <meta name="description" content="Learn about medieval weapons history">
+        <meta name="author" content="Brett Petersen">
+        <link rel="stylesheet" href="traveler.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;700&family=Oxygen:wght@300;700&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="icon" type="image/x-icon" href="favicon.ico">
+
+    </head>
+    <body>
+        <!-- Start of the page header -->
+        <header>
+            <img src="images/logo.png" alt="site logo" width="100" height="100">
+            <div>
+            <h1>Dirk & Dagger</h1>
+            <p>We Know Weapons</p>
+            </div>
+
+        </header>
+        <!-- Start of the page navigation -->
+        <nav>
+          <ul>
+            <li><a href="index.html">Featured Weapons</a></li>
+            <li><a href="dirkdaggerstore.html">Purchase a Replica</a></li>
+            <li><a href="weapons.html">Weapon Gallery</a></li>
+            <li class="active"><a href="orderclaymore.html">Buy Now</a></li>
+            <li><a href="demo.html">Demos</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+        </nav>
+        <!-- Start of the page content -->
+        <main>
+            
+            <form method="get" class="myForm" action="thanks.html">
+
+                <h2 id="claymore">Scottish Claymore</h2>
+                <dl>
+                    <dt><strong>$89.99</strong></dt> 
+                    <dd>
+                        - Stainless Steel 42in blade, full tang.<br>
+                        - Brass crossguard and pommel with genuine leather handwraped grip.<br>
+                        - 55in overall length
+                    </dd>
+                </dl>
+
+                <fieldset>
+                <legend>Safety options (no charge)</legend>
+                    <label><input type="radio" name="method" value="sedge">Sharpened Blade</label>
+                    <label><input type="radio" name="method" value="dedge">Dull blade</label>
+                    <label><input type="radio" name="method" value="nedge">No Edge</label>
+                    <label><input type="radio" name="method" value="dtip">Dulled Tip</label>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Include Genuine Leather Scabbard ($20)</legend>
+                        <select name="time">
+                        <option value="none">Please Select</option>
+                        <option value="scabbardyes">Yes</option>
+                        <option value="scabbardno">No</option>
+                        </select>
+
+                </fieldset>
+
+
+                <h2 id="Claymore">Delivery Info</h2>
+                        
+                <fieldset>
+                    <legend>Customer Information</legend> 
+                    <label>First Name*<input type="text" name="fname" required></label>
+                    <label>Last Name*<input type="text" name="lname" required></label>
+                    <label>Cell Number*<input type="tel" name="phone" required placeholder="'(000)-000-0000"></label>
+                    <label>Email<input type="tel" name="email"></label>
+                    </fieldset>
+            
+                    <fieldset>
+                        <legend>Customer Address</legend> 
+                        <label>Street*<input type="text" name="street" required placeholder="Line 1"></label>
+                        <label>Street<input type="text" name="street" placeholder="Line 2"></label>
+                        <label>City*<input type="text" name="city" required></label>
+                        <label>State*<select name="time">
+                            <option value="none">Please Select</option>
+                            <option value="Utah">Utah</option>
+                            <option value="Arizona">Arizona</option>
+                            <option value="Nevada">Nevada</option>
+                            <option value="Idaho">Idaho</option>
+                            <option value="California">California</option>
+                            </select>
+                        </label>
+                        <label>Zip code*<input type="text" name="zipcode" required></label>
+                        </fieldset>
+        
+                <fieldset>
+                    <legend>Delivery Options</legend>
+                    <label><input type="checkbox" name="inperson" value="chosen">Hand Deliver</label>
+                    <label><input type="checkbox" name="door" value="chosen">Leave at Door</label>
+                    <label><input type="checkbox" name="bdoor" value="chosen">Leave at back Door</label>
+                    
+                    <label>Preferred Delivery Time
+                    <select name="time">
+                    <option value="none">Please Select</option>
+                    <option value="morning">Between 7:00am and 11:00am</option>
+                    <option value="noon">Between 11:00am and 2:00pm</option>
+                    <option value="afternoon">Between 2:00pm and 5:00pm</option>
+                    <option value="evening">Between 5:00pm and 8:00pm</option>
+                    </select>
+                    </label>
+        
+                </fieldset>
+        
+                <label>Additional Delivery Instructions
+                    <textarea name="comments"></textarea>
+                </label>
+        
+                <input type="submit" value="Place Your Order"> 
+                </form>
+
+        </main>    
+        <!-- Start of the page footer -->
+        <footer>
+        <p>&copy; 2023 Brett Petersen &bull; <a href="mailto:brettpeten@gmail.com">Email Us</a></p>
+        </footer>
+    
+    </body>
+</html>
